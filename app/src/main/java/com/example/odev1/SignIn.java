@@ -84,7 +84,7 @@ public class SignIn extends Activity {
                 dTarihi.setText("");
                 tel.setText("");
                 email.setText("");
-
+                tc.setText("");
             }
         });
     }
