@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         EditText user_name = (EditText)findViewById(R.id.user_name);
         EditText pw = (EditText)findViewById(R.id.password);
         Button loginBtn = (Button)findViewById(R.id.login);
-        if(user_name.getText().toString().equals("") && pw.getText().toString().equals("")) {
+        if(user_name.getText().toString().equals("admin") && pw.getText().toString().equals("password")) {
             Intent i = new Intent(MainActivity.this, SignIn.class);
             startActivity(i);
         }else{
